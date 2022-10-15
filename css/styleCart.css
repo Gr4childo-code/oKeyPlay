@@ -1,0 +1,252 @@
+* {
+    font-family: 'Russo One', sans-serif;
+}
+
+body {
+    background-image: url("../models/fon.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: #FEFFFF;
+    font-family: 'Russo One', sans-serif;
+    font-size: 300%;
+}
+
+#header {
+    text-align: center;
+}
+
+#buttonHeader {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    border-style: hidden;
+    font-size: 120%;
+    cursor: pointer;
+}
+
+#buttonHeader:hover {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+#platform_name {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    border-style: hidden;
+    font-size: 120%;
+    margin-left: 10px;
+}
+
+#genre_name {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    border-style: hidden;
+    font-size: 120%;
+    margin-right: 10px;
+}
+
+#poisk {
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    border-style: hidden;
+    font-size: 120%;
+}
+
+#space {
+    width: 100%;
+    height: 20px;
+}
+
+.summa {
+    float: right;
+    margin: 0 17%;
+    font-size: 200%;
+    height: 280px;
+}
+
+.summa .open-button {
+    width: 300px;
+    cursor: pointer;
+}
+
+.summa .open-button:hover {
+    background-color: red;
+    color: white;
+}
+
+#product {
+    margin: 0 0% 0% 17%;
+    text-align: left;
+    padding: 0px;
+    font-size: 200%;
+    font-family: 'Russo One', sans-serif;
+    color: #FEFFFF;
+    display: flex;
+}
+
+#product button {
+    font-size: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#product button:hover {
+    background-color: red;
+    color: white;
+}
+
+#product img {
+    border-radius: 20px;
+    margin-right: 40px;
+}
+
+#headerButton {
+    margin: 8px 0 0 0;
+}
+
+#pusto {
+    text-align: center;
+    color: rgb(218, 168, 168);
+    font-size: 300%;
+}
+
+#login {
+    text-align: left;
+}
+
+#selectСhangeProductName {
+    width: 350px;
+}
+
+#selectСhangePicture {
+    width: 400px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.icons {
+    display: flex;
+    text-decoration: none;
+    color: #FEFFFF;
+    font-size: 20pt;
+}
+
+
+/* Корзина */
+
+.zakaz {
+    color: white;
+}
+
+.pusto {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.silka {
+    border: 0px;
+    background: #f8ba10;
+    color: black;
+    padding: .2em .75em;
+    text-decoration: none;
+    font-size: 30px;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: 39%;
+    border-radius: 10px;
+}
+
+.silka:hover {
+    background-color: red;
+    color: white;
+}
+
+.displaynonelogin {
+    display: none;
+}
+
+
+/* /////////////// */
+
+.icons {
+    height: 70px;
+    text-decoration: none;
+    color: #FEFFFF;
+    font-size: 30px;
+}
+
+.icons a {
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.silka_catalog {
+    background-color: white;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.silka_catalog:hover {
+    background-color: red;
+    color: white;
+}
+
+.nav1 {
+    float: left;
+    margin-left: 6px;
+}
+
+.nav2 {
+    float: left;
+    margin-top: 15px;
+    margin-left: 525px;
+}
+
+.nav3 {
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 468px;
+}
+
+.nav3 a {
+    margin-left: 30px;
+}
+
+.navhr {
+    margin-bottom: 10px;
+    border: 0;
+    height: 3px;
+    background: rgba(255, 255, 255, 0);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
+}

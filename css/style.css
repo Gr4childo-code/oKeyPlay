@@ -1,0 +1,465 @@
+* {
+    font-family: 'Russo One', sans-serif;
+}
+
+body {
+    background-image: url("../models/fon.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: #FEFFFF;
+    font-family: 'Russo One', sans-serif;
+    font-size: 300%;
+}
+
+#header {
+    text-align: center;
+}
+
+#buttonHeader {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    border-style: hidden;
+    font-size: 120%;
+    cursor: pointer;
+}
+
+#buttonHeader:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+#platform_name {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    border-style: hidden;
+    font-size: 120%;
+    margin-left: 10px;
+}
+
+#genre_name {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    border-style: hidden;
+    font-size: 120%;
+    margin-right: 10px;
+}
+
+#poisk {
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    border-style: hidden;
+    font-size: 120%;
+}
+
+#main {
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+#product {
+    width: 360px;
+    float: left;
+    margin: 0px 50px 50px 0px;
+    text-align: center;
+    padding: 0px;
+    font-size: 162%;
+    color: #FEFFFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+#product img {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 360px;
+    height: 500px;
+}
+
+#product p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+#product p:nth-child(2) {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+#product p:nth-child(3) {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+#product button {
+    font-size: 30px;
+    height: 50px;
+    width: 360px;
+    border: 0;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+#product button:hover {
+    background-color: red;
+    color: white;
+}
+
+#headerButton {
+    margin: 8px 0 0 0;
+}
+
+#headerMain {
+    text-align: center;
+}
+
+#pusto {
+    margin-left: 560px;
+    color: red;
+    font-size: 300%;
+}
+
+#login {
+    text-align: left;
+}
+
+#selectСhangeProductName {
+    width: 350px;
+}
+
+#selectСhangePicture {
+    width: 400px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+/* NAVBAR */
+
+.icons {
+    height: 70px;
+    text-decoration: none;
+    color: #FEFFFF;
+    font-size: 30px;
+}
+
+.icons a {
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.silka_catalog {
+    background-color: white;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.silka_catalog:hover {
+    background-color: red;
+    color: white;
+}
+
+.nav1 {
+    float: left;
+    margin-left: 6px;
+}
+
+.nav2 {
+    float: left;
+    margin-top: 15px;
+    margin-left: 525px;
+    text-align: center;
+}
+
+.nav3 {
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.nav3 a {
+    margin-left: 30px;
+}
+
+.navhr {
+    margin-bottom: 40px;
+    border: 0;
+    height: 3px;
+    background: rgba(255, 255, 255, 0);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
+}
+
+
+/* Корзина */
+
+.zakaz {
+    color: white;
+}
+
+.pusto {
+    font-size: 40px;
+    margin-left: 41%;
+    color: white;
+}
+
+
+/* Profile */
+
+.profile_user {
+    width: 1400px;
+    height: 800px;
+    /* background-color: grey; */
+    margin-left: 290px;
+    color: white;
+    margin-top: 30px;
+    display: flex;
+}
+
+.left {
+    width: 400px;
+}
+
+.left img {
+    width: 400px;
+    /* height: 400px; */
+    margin-bottom: 10px;
+    border-radius: 20px;
+    max-height: 450px;
+}
+
+.info1 {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    float: left;
+    width: 152px;
+}
+
+.info1:nth-child(2) {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    float: left;
+    width: 152px;
+}
+
+.info2 {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    float: right;
+}
+
+.info2:nth-child(3) {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    float: right;
+}
+
+.right {
+    width: 752px;
+    margin-left: 50px;
+}
+
+.right .btn_link_profile {
+    font-size: 30px;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 0;
+    padding: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 5px;
+}
+
+.right .btn_link_profile:hover {
+    background-color: red;
+    color: white;
+}
+
+.right hr {
+    /* border: 0; */
+    border-radius: 20px;
+    height: 10px;
+    width: 745px;
+    float: left;
+    background: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.table_user_history {
+    border-collapse: collapse;
+    width: 752px;
+    font-size: 28px;
+    text-align: left;
+}
+
+.table_user_history tr {
+    border-bottom: 3px solid white;
+}
+
+.table_user_history tr:nth-last-child(1) {
+    border-bottom: 0px;
+}
+
+.table_user_history td {
+    font-size: 30px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.table_user_history td:nth-child(2) {
+    text-align: center;
+    width: 210px;
+}
+
+.table_user_history th {
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+.table_user_history th:nth-child(2) {
+    text-align: center;
+}
+
+
+/* //////////////////// */
+
+.changelogin {
+    font-size: 30px;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 0;
+    padding: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 5px;
+    margin-left: 85px;
+}
+
+.changelogin:hover {
+    background-color: red;
+    color: white;
+}
+
+.changepassoword {
+    font-size: 30px;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 0;
+    padding: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.changepassoword:hover {
+    background-color: red;
+    color: white;
+}
+
+.box_profile_info form {
+    text-align: center;
+    font-size: 30px;
+}
+
+.box_profile_info input {
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    margin-top: 5px;
+}
+
+.box_profile_info input:nth-last-child(1) {
+    width: 200px;
+    border: 0;
+    margin-top: 40px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    cursor: pointer;
+}
+
+.box_profile_info input:nth-last-child(1):hover {
+    background-color: red;
+    color: white;
+}
+
+.box_profile_info p {
+    text-align: center;
+    font-size: 40px;
+    color: red;
+}
+
+.profile_text p {
+    color: white;
+    margin: 0;
+}
+
+.profile_text p:nth-child(1) {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.profile_text p:nth-child(3) {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+
+/* INDEX */
+
+.social {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.social a {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
+}
+
+.social img {
+    width: 128px;
+}
